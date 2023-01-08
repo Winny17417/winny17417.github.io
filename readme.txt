@@ -43,10 +43,10 @@ git checkout 命令加上 –b参数表示创建并切换，相当于如下2条命令：
 git branch dev
 git checkout dev
 
-总结创建与合并分支命令如下：
+Git鼓励大量使用分支：
 查看分支：git branch
-创建分支：git branch name
-切换分支：git checkout name
-创建+切换分支：git checkout –b name
-合并某分支到当前分支：git merge name
-删除分支：git branch –d name
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
