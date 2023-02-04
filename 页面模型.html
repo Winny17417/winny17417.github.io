@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -154,4 +155,162 @@
         底部文本
     </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .topmenu{
+            overflow: hidden;
+            background-color: grey;
+        }
+        .topmenu li{
+            float: left;
+            /* margin:0 20px; */
+        }
+        .topmenu li a{
+            display: inline-block;
+            /* inline-block是元素具备了00两种（块级和内联）元素的功能，inline最重要的一点就是：元素能够在一行展示，而inline元素所缺失的设置宽高，也是block 元素的功能，从而两个联手，它同时具备了block和inline两者的功能。 */
+            color: aliceblue;
+            text-align: center;
+            padding: 16px;
+        }
+        .topmenu li a:hover{
+            background-color: black;
+        }
+        .topmenu li a.active{
+            background-color: green;
+        }
+        .leftmenu{
+            padding:15px;
+            width: 25%;
+            float: left;
+            display: block;
+        }
+        .rt{
+            padding:15px;
+            width: 75%;
+            float: left;
+            text-align: center;
+            color: aliceblue;
+        }
+        .rt h1{
+            background-color: rgb(77, 77, 255);
+            height: 100px;
+            line-height: 100px;
+        }
+        .rb{
+            padding:15px;
+            width: 75%;
+            float: left;
+            display: block;
+        }
+        .leftmenu li a{
+            margin-bottom: 4px;
+            padding: 8px;
+            color: black;
+            background-color: rgb(230, 230, 230);
+            display: block;
+            text-align: left;
+        }
+        .leftmenu li a:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        .leftmenu li a.active{
+            color: aliceblue;
+            background-color: rgb(77, 77, 255);
+        }
+        .bot{
+            clear: both;
+            color: aliceblue;
+            padding:0 15px;
+            height: 60px;
+            line-height: 60px;
+            background-color:rgb(46, 46, 46);
+        }
+        .rb h2{
+            padding-bottom: 20px;
+        }
+        .rb p{
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class="topmenu">
+            <li>
+            <a href="#home" class="active">主页</a>
+            </li>
+            <li>
+            <a href="#home">新闻</a>
+            </li>
+            <li>
+            <a href="#home">联系我们</a>
+            </li>
+            <li>
+            <a href="#home">关于我们</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="leftmenu">
+            <li>
+            <a href="#tfl">The Flight</a>
+            </li>
+            <li>
+            <a href="#tci" class="active">The City</a>
+            </li>
+            <li>
+            <a href="#tis">The Island</a>
+            </li>
+            <li>
+            <a href="#tfo">The Food</a>
+            </li>
+            <li>
+            <a href="#tpe">The People</a>
+            </li>
+            <li>
+            <a href="#thi">The History</a>
+            </li>
+            <li>
+            <a href="#toc">The Oceans</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <div class="rt">
+            <h1>
+                The City
+            </h1>
+        </div>
+        <div class="rb">
+           <h2>
+            Chania
+           </h2> 
+           <p>
+            Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.
+           </p>
+           <p>
+            You will learn more about responsive web pages in a later chapter.
+           </p>
+        </div>
+    </div>
+    <div class="bot">
+        底部文本
+    </div>
+</body>
+>>>>>>> 441bbe1da4e589eb57932a6a72096b07a96d9642
 </html>
